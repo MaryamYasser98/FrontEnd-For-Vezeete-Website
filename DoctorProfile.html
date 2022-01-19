@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>الاطباء </title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- My Styling -->
+  <link href="CSS/styleSh.css" rel="stylesheet">
+  <link rel="icon" href="images/logohead.jfif"/>
+  <style>
+    #himg{
+        width: 50px;
+        height: 50px;
+        border:1px solid rgb(175, 172, 172) ;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    li{
+        list-style: none;
+    }
+    
+</style>
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <a href="home.html" class="logo me-auto"><img src="Images/logo.png" alt=""></a>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul >
+          <li><a class="nav-link scrollto" href="RegisterArb.html" style="border: 2px solid ;text-align: center;padding: 5px;;">انضم الان</a></li>
+          <li><a class="nav-link scrollto" href="LogInArb.html">دخول</a></li>
+          <li><a class="nav-link scrollto" href="#">| فيزيتا للاطباء |</a></li>
+          <li><a class="nav-link scrollto" href="ContactUsArb.html"> اتصل بنا |</a></li>
+          <li><a class="nav-link scrollto" href="#"> English |</a></li>
+          <li class="dropdown"  style="width:100px;">
+            <a href="#"><span><img src="country-flags-16px/16/eg_16.png" /> مصر</span></a>
+            <ul style="padding-right: 200px">
+                <li><a href="#">السعودية<img src="country-flags-16px/16/sa_16.png" /></a></li>
+                <li><a href="#">مصر<img src="country-flags-16px/16/eg_16.png" /></a></li>
+                <li><a href="#">الاردن<img src="country-flags-16px/16/jo_16.png" /></a></li>
+                <li><a href="#">لبنان<img src="country-flags-16px/16/lb_16.png" /></a></li>
+                <li><a href="#">نيجيريا<img src="country-flags-16px/16/ng_16.png" /></a></li>
+                <li><a href="#">كينيا<img src="country-flags-16px/16/ke_16.png" /></a></li>
+                <li><a href="#">النسخه العالمية<img src="country-flags-16px/16/global.jpg" /></a></li>
+            </ul>
+        </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+  <div id="searchPart" class="container"style="margin-top:60px;">
+      <div class="row">
+        <div class="col-6">
+         <img src="Images/Capture2.PNG" width="100%"height="100%"/>
+        </div><!-- image-->
+        <div class="col-6" style="text-align: right;background-color:#EEEDED;">
+          <span>
+            <p class="h4" style="color: gray;font-family: sans-serif;margin-top:11px;"><b> احجز مع أفضل دكتور في مصر حسب التخصص </b></p>
+            <p style="color: gray;">أحجز أونلاين أو كلم <i class="fa fa-phone text-danger"  aria-hidden="true"></i> 16676 </p>
+            <p style="color: gray;">١٥٠٠٠ دكتور -٩٠٠٠ استاذ واستشاري - اكثر من ٤٠ تخصص</p>        
+          </span>  
+        </div><!-- text-->
+      </div> <!--end div row-->
+  </div> <!-- end container-->
+
+  
+  <div id="searchPart" style="padding:8px ; ">
+       <nav aria-label="Page navigation example ">
+        <ul class="pagination justify-content-center">
+            <ul class="nav justify-content-center bg-light">
+        <div style="margin-top: 12px;">
+          <button type="button" class="btn btn-danger" style="margin-bottom: 5px;margin-left: 10px; margin-right:10px ;">
+            بحث<i class="fa fa-search"style="color:white;"></i>
+          </button>
+          <input type="text" placeholder="  الدكتور او المستشفى" style="border: none;"  />     
+        </div>
+ <li class="nav-item dropdown " >
+     <div  style="margin-top: 12px;">   
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown"  href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار   التأمين  <i class="fa fa-umbrella" aria-hidden="true"></i> </a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+         </div>
+  </li>
+  <li class="nav-item dropdown">
+      <div  style="margin-top: 12px;">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار   المنطقه<i class="fa fa-map-marker" aria-hidden="true"></i></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+          </div>
+  </li>
+  <li class="nav-item dropdown">
+      <div  style="margin-top: 12px;">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> اختار المحافظه <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+          </div>
+  </li>
+  <li class="nav-item dropdown">
+      <div  style="margin-top: 12px;">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار التخصص<i class="fa fa-stethoscope" aria-hidden="true"></i></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+      </div>  
+  </li>
+            </ul>
+        </ul>
+      </nav>
+  </div> <!--pagination-->
+  <br/>
+  <div class="container main-container">
+           <div class="row justify-content-around">
+             <div class="right-section col-12 col-lg-6">
+                <div class="row doc-info">
+                  <div class="col-3 offset-1 .doc-img-container" >
+                    <img class="doc-img" />
+                  </div>
+                  <div class=" doc-details col-8 ">
+                    <span class="doc-name">
+                      <h4 style="margin: 0px;">
+دكتور         
+<span>احمد ممدوح حجازى</span>
+                      </h4>
+                       </span>
+                    <span class="doc-spec">
+                      استشاريين زراعة وتقويم الاسنان - جامعة عين شمس عضو الجمعية الامريكية لزراعة الاسنان - نيو جيرسي</span>
+                      <p class="spec-details">
+                        دكتور اسنان متخصص في تجميل اسنان، حشو وعلاج الجذور والاعصاب، علاج اللثة، جراحة وجه وفكين، تقويم اسنان، تركيبات اسنان، اسنان مسنين، اشعة الاسنان، زراعة اسنان و اسنان بالغين
+                      </p>
+                      <div class="tot-doc-rate">
+                        <span class="stars">
+                          <span class="star fa fa-star"></span>
+                          <span class="star fa fa-star"></span>
+                          <span class="star fa fa-star"></span>
+                          <span class="star fa fa-star"></span>
+                          <span class="star fa fa-star"></span> 
+                           <span class="tot-rate-num">التقييم العام من ٥٢٩ زاروا الدكتور</span>               
+                        </span>
+                      </div>
+                  </div>
+                  
+                </div>
+                
+                <div class="col-12 doc-serv" >
+                  <div style="margin-bottom: 12px;" >
+                    <span class="fa fa-stethoscope text-primary" style="font-size: 20px;"></span>
+                      <span class="head"> خدمات الدكتور :</span>
+                  </div>
+                  <div style="padding: 0px 35px 0px 0px;">
+                    <span class="service">خصم علي الكشف</span>
+                    
+                  </div>                    
+              </div>
+            <div class="patient-eval">
+              <div >
+                  <span class=" fa fa-star-half  text-primary" style="font-size: 20px;"></span>
+                    <span class="head"> تقييم المرضي :</span>
+                </div>
+              <div class="col-12 inner-pat-eval" >
+                
+                <div class="stars">
+                  <span class="star fa fa-star"></span>
+                  <span class="star fa fa-star"></span>
+                  <span class="star fa fa-star"></span>
+                  <span class="star fa fa-star"></span>
+                  <span class="star fa fa-star"></span> 
+                </div>
+                <div class="tot-eval-head" >التقييم العام</div>
+                <div style="text-align: center;"> من ٤٤ زاروا الدكتور</div>
+                
+                <span class="row text-center" style="margin-top:1rem">
+                  <span class="col-4">
+                      <span class="stars">
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+
+                      </span>
+                      <br>
+                      <span class="sub-rate-title">تقييم المساعد</span>
+
+                  </span>
+                  <span class="col-4">
+                      <span class="stars">
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+                          <span class="star-min fa fa-star "></span>
+
+                      </span>
+                      <br>
+
+                      <span class="sub-rate-title"> تقييم العيادة</span>
+
+                  </span>
+                  <span class="col-4">
+                      <span class="blue-box">
+                          <span class="fbUVSu">3.8</span>/5
+                      </span>
+                      <span class="sub-rate-title">تقييم الدكتور</span>
+                  </span>
+
+              </span>     
+            </div>
+            <div class="devider">
+
+            </div>
+
+            <div class="col-12 review-container" >
+              
+                <span class="stars">
+                    <span class="star-min fa fa-star"></span>
+                    <span class="star-min fa fa-star"></span>
+                    <span class="star-min fa fa-star"></span>
+                    <span class="star-min fa fa-star"></span>
+                    <span class="star-min fa fa-star"></span>
+                </span>
+                <div class="review-header ">
+                    التقييم العام
+                    <span class="text-center">
+                        <span ><span class="blue-box"> 5</span></span>
+                        <span class="sub-rate-title" style="text-align: center;">تقييم الدكتور</span>
+                    </span>
+                </div>
+                <div class="comment">"دكتور شاطر"</div>
+                <div class="kHFyFI">مروة م</div>
+                <div class="dIODos">الثلاثاء، ١٦ فبراير ٢٠٢١ ٠٤:١٤ م</div>
+            
+            </div>
+              </div>
+            </div>
+               <div class="col-12 col-lg-5 reserv-detail-container">
+                   <div class="col-12 reserv-detail-title">
+                    معلومات الحجز
+                   </div>
+                   <div class="serv-container "style="text-align:center;">
+                    <span style="line-height: 20px;padding-bottom: 5px;">احجـــز </span>
+                   <span style="    font-size: 15px;color: rgb(7, 127, 205);"> كشف طبي </span>
+                   </div>
+                   <div class="col-12 price-and-time">
+                     
+                        <div class="col-6  item">
+                            <span><a ><i class="fa fa-clock"></i></a> </span>
+                            <p>الكشف٢٠٠ جنيه</p>
+                        </div>  
+                        <div class="col-6 item">
+                            <span><a ><i class="fa fa-money-bill-wave-alt"></i></a> </span>
+                            <p>مدة الانتظار : ١٢ دقيقة</p>
+                       
+                        
+                     </div>
+                   </div>
+
+                   <div class="12 clinic-location">
+                       <span class="fa fa-map-marker-alt location-icon"></span>
+                       <div class="address-text">
+                         <span style="font-size: 17px;">المنيل : عبد العزيز ال سعود</span>
+                         <span style="   font-size: 17px; margin-top: 5px;font-weight: 600;">احجز الان وسيتم ارسال تفاصيل العنوان بالكامل ورقم العيادة</span>
+                       </div>
+                   </div>
+
+                   <div class="col-12 choose-appointment">
+                      اخـتــــــــار ميعاد الــحــجــز
+                   </div>
+
+                   <div class="schedule-wrapper">
+                       <div class=" days-column-container">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+                         
+                          <div class="carousel-inner ">
+                            <div class="carousel-item active " data-bs-interval="10000">
+                              <div class="row justify-content-center " style="margin: auto;">
+
+                              <div class="day-column">
+                                
+                                    <div class="day-title"> اليوم</div>
+                                    <div class="day-content">
+                                    <div class="day-schedule">
+                                     <span>من ١٢:٠٠ م</span><br>
+                                     <span>من ١٢:٠٠ م</span><br>
+                                    </div>
+                                    </div>
+                                   <div class="book-button" >الحجز</div>
+                               
+                            </div>
+                            <div class="day-column">
+                                
+                              <div class="day-title"> اليوم</div>
+                              <div class="day-content">
+                              <div class="day-schedule">
+                               <span>من ١٢:٠٠ م</span><br>
+                               <span>من ١٢:٠٠ م</span><br>
+                              </div>
+                              </div>
+                             <div class="book-button" >الحجز</div>
+                         
+                      </div>
+                      <div class="day-column">
+                                
+                        <div class="day-title"> اليوم</div>
+                        <div class="day-content">
+                        <div class="day-schedule">
+                         <span>من ١٢:٠٠ م</span><br>
+                         <span>من ١٢:٠٠ م</span><br>
+                        </div>
+                        </div>
+                       <div class="book-button" >الحجز</div>
+                   
+                </div>
+                          
+                         
+                           
+                             
+                        </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="..." class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                              </div>
+                            </div>
+                          
+                          </div> 
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                           
+                       </div>
+ <span class="instruction">
+                      الدخول بميعاد محدد
+                      
+                    </span>
+                    </div>
+
+                   
+
+                  <div class="reserve-and-pay">
+                    <span class="fa fa-calendar  calender-icon" style="margin-left:14px ;" ></span>
+                    <div class="reserve-and-pay-text">
+                      <span style="line-height: 22px;font-weight: 700;font-size: 20px;">احجز أونلاين، ادفع في العيادة!</span>
+                      <span style="line-height: 22px;font-size: 15px;"> الدكتور يشترط الحجز المسبق!!</span>
+
+                    </div>
+              </div> <!-- Left section  end-->
+
+              
+               </div>
+               
+           </div>
+  </div>
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12  col-md-2 ">
+            <div class="footer-info">
+              
+              <div class="social-links mt-3 mb-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6  col-md-2  footer-links">
+            <h4>تحتاج للمساعده؟</h4>
+            <ul>
+              <li><a href="ContactUsArb.html">اتصل بنا</a></li>
+              <li><a href="TermsOfUse.html">شروط الاستخدام</a></li>
+              <li><a href="PrivacyPolicy.html">اتفاقية الخصوصية</a></li>
+              <li><a href="DoctorsPrivacyPolicyArb.html">اتفاقية الخصوصية للاطباء</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2  footer-links">
+            <h4>هل انت طبيب ؟</h4>
+            <ul>
+              <li><a href="LoginDoctor.html">انضم الى اطباء فيزيتا</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2  footer-links">
+            <h4>ابحث عن طريق</h4>
+            <ul>
+              <li><a href="specific.html">التخصص</a></li>
+              <li><a href="city2.html">المنطقة</a></li>
+              <li><a href="InsurancePage.html">التأمين</a></li>
+              <li><a href="hospitalPage.html">المستشفى</a></li>
+              <li><a href="centerPage.html">المركز</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4  footer-links">
+            <div class="d-none d-md-block ">
+            <h4><img src="Images/logo.png" alt=""></h4>
+          </div>
+            <ul>
+              <li><a href="WhoRW.html">من نحن</a></li>
+              <li><a href="LifeVezeeta.html">فريق فيزيتا</a></li>
+              <li><a href="https://careers.vezeeta.com/">وظائف</a></li>
+              <li><a href="press.html">الصحافه</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+      </div>
+  </footer><!-- End Footer -->
+ 
+
+  <!-- Main JS File -->
+  <script src="js/main.js"></script>
+  <script src="jss/JQuery-3.3.1.min.js"></script>
+  <script src="jss/popper.js"></script>
+  <script src="jss/bootstrap.js"></script>
+ 
+<script>
+  var myCarousel = document.querySelector('#myCarousel');
+  var carousel = new bootstrap.Carousel(myCarousel);
+</script>
+
+
+</body>
+
+</html>

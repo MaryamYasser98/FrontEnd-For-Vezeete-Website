@@ -1,0 +1,638 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>فيزيتا | احجز أفضل دكتور و اطلب أدوية</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="jss/popper.js"></script>
+    <script src="jss/bootstrap.js"></script>
+    <link rel="icon" href="images/logohead.jfif"/>
+
+    <style>
+        .mydiv {
+            width: 100%;
+            height: 100%;
+            background-image: url('images/cover22.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-color: gray;
+        }
+        .header {
+            color: #36A0FF;
+            font-size: 27px;
+            margin: 50px;
+        }
+        .main {
+            padding: 0px;
+            margin: 0px;
+        }
+        .DocDiv {
+            background-color: white;
+            border: none;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+            .DocDiv:hover {
+                background-color: rgb(226, 230, 234);
+            }
+
+        li {
+            list-style: none;
+        }
+        .appoiunts:hover {
+            background-color: rgb(59, 146, 223);
+            border-radius: 10px;
+        }
+        .checked {
+            color: orange;
+        }
+        .avatar {
+            vertical-align: middle;
+            width: 90%;
+            height: 50%;
+            border-radius: 50%;
+            box-shadow: gray 5px 5px 10px;
+        }     
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid main" style=" background-color: lightgrey;"> 
+        <header id="header"class="fixed-top">
+            <div class="container d-flex align-items-center">
+                <a href="home.html" class="logo me-auto"><img src="images/logo.png" alt=""></a>
+                <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                        <li><a class="nav-link scrollto" href="RegisterArb.html" style="border: 2px solid ;text-align: center;padding: 5px;">انضم الان</a></li>
+                        <li><a class="nav-link scrollto" href="LogInArb.html">دخول</a></li>
+                        <li><a class="nav-link scrollto" href="#">| فيزيتا للاطباء |</a></li>
+                        <li><a class="nav-link scrollto" href="ContactUsArb.html"> اتصل بنا |</a></li>
+                        <li><a class="nav-link scrollto" href="#"> English |</a></li>
+                        <li class="dropdown"  style="width:100px;">
+                            <a href="#"><span><img src="country-flags-16px/16/eg_16.png" /> مصر</span></a>
+                            <ul style="padding-right: 200px">
+                                <li><a href="#">السعودية<img src="country-flags-16px/16/sa_16.png" /></a></li>
+                                <li><a href="#">مصر<img src="country-flags-16px/16/eg_16.png" /></a></li>
+                                <li><a href="#">الاردن<img src="country-flags-16px/16/jo_16.png" /></a></li>
+                                <li><a href="#">لبنان<img src="country-flags-16px/16/lb_16.png" /></a></li>
+                                <li><a href="#">نيجيريا<img src="country-flags-16px/16/ng_16.png" /></a></li>
+                                <li><a href="#">كينيا<img src="country-flags-16px/16/ke_16.png" /></a></li>
+                                <li><a href="#">النسخه العالمية<img src="country-flags-16px/16/global.jpg" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+        </header><!-- End Header -->
+        <!-- =====> page body <==== -->
+        <br /><br />
+        <div class="container-fluid  d-none d-lg-block col-md-12 mydiv " style=" background-color: lightgrey;">
+
+            <div class="container row pt-5  ">
+
+                <div class="col-7"></div>
+                <div class="col-5 text-end ">
+                    <h2>احجز مع افضل دكتور (التخصص) في مصر</h2>
+                    <h3>احجز اونلاين او كلم<i class="fa fa-phone text-danger"></i>١٦٦٧٦</h3>
+                    <h5>١٥٠٠٠ دكتور -٩٠٠٠ استاذ واستشاري - اكثر من ٤٠ تخصص</h5>
+                </div>
+
+            </div>
+            <div style="padding:8px ; " class="justify-content-center">
+                <nav aria-label="Page navigation example ">
+                    <ul class="pagination justify-content-center align-content-center">
+                        <ul class="nav justify-content-center bg-light ">
+                            <div style="margin-top: 12px;">
+
+                                <button type="button" class="btn btn-danger">
+                                    <i class="fa fa-search"></i> Search
+                                </button>
+                                <input type="text" placeholder="  الدكتور او المستشفى" style="border: none;" />
+
+                            </div>
+                            <!--          <li class="nav-item dropdown">-->
+                            <li class="nav-item dropdown ">
+                                <div style="margin-top: 12px;">
+
+                                    <a class="nav-link dropdown-toggle  " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار   التأمين  <i class="fa fa-umbrella" aria-hidden="true"></i> </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <div style="margin-top: 12px;">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار   المنطقه<i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <div style="margin-top: 12px;">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> اختار المحافظه <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <div style="margin-top: 12px;">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">اختار التخصص<i class="fa fa-stethoscope" aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <!--  </li>-->
+                        </ul>
+                    </ul>
+                </nav>
+            </div> <!--pagination-->
+        </div>
+
+
+        <div class="container row col-12">
+            <div class="col-1 col-lg-1"></div>
+
+            <!--left div-->
+            <div class="col-10 col-lg-7 m-4">
+                <div class="container col-12 row ">
+
+                    <div class="col-6 row">
+
+                        <div class="col-7 dropdown text-right">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                الأكثر تطابقا
+                            </button>
+                            <div class="dropdown-menu text-right" aria-labelledby="dropdownMenuButton">
+                                الاكثر تطابقا <input type="radio" name="chioce" />
+                                <br />
+                                اعلي التقيمات <input type="radio" name="chioce" />
+                                <br />
+                                الاعلي سعرا <input type="radio" name="chioce" />
+                                <br />
+                                 الاقل سعرا <input type="radio" name="chioce" />
+                                <br />
+                                  لاقل في وقت الانتظار <input type="radio" name="chioce" />
+                            </div>
+                        </div>
+                        <!-- <label class="col-5 text-left">: ترتيب  </label> -->
+                    </div>
+                    <div class="row col-6 justify-content-center">
+                        <p class="col-6 text-right">(عدد الدكاترة)</p>
+                        <p class="col-6 "><b>(التخصص)</b></p>
+
+                    </div>
+                </div>
+
+                <div class="container row DocDiv mt-2 justify-content-center"style="">
+                    <div class=" col-12  col-md-6 pt-2  order-2">
+                        <div class="row">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+
+                                <div class="carousel-inner">
+                                    <div class=" carousel-item active ml-2" data-bs-interval="10000">
+                                        <div class="row" style="margin-left:2px;margin-right:3px;">
+
+                                            <div class=" col-4 ">
+
+                                                <div class="card row ">
+                                                    <p style="background-color:blue;color:white;text-align:center;"> ٠٣/٣١</p>
+
+                                                    <ul class="col-12">
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                    </ul>
+
+                                                    <p style="background-color:rgb(226, 38, 25);color:white;text-align:center;">الحجز</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-4">
+
+                                                <div class="card row">
+                                                    <p style="background-color:blue;color:white;text-align:center;">غدا</p>
+                                                    <ul class="col-12">
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                    </ul>
+                                                    <p style="background-color:rgb(226, 38, 25);color:white;text-align:center;">الحجز</p>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-4">
+
+                                                <div class="card row">
+                                                    <p style="background-color:blue;color:white;text-align:center;"> اليوم</p>
+                                                    <ul class="col-12">
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                        <li class="appoiunts " style="font-size:0.8em">١٢:١٠ م</li>
+                                                    </ul>
+                                                    <p style="background-color:rgb(226, 38, 25);color:white;text-align:center;">الحجز</p>
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <button class="carousel-control-prev mr-3" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next ml-3" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12" style="text-align:center;">
+                         <!-- <a href="DoctorProfile.html"></a> -->
+                         <a href="DoctorProfile.html"><h4>الدخول بميعاد محدد</h4></a>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 row p-2">
+                        <div class="col-9">
+                            <p class=" text-end" style="color: #36A0FF; font-size: 20px;"><a href="#">(اسم الدكتور)(الجنس)</a></p>
+                            <p class="text-end " style="color: rgb(80 82 103);">........الوصف</p>
+                            <!--<p class="text-end " style="color: rgb(80 82 103);">استشاري الامراض الجلدية والعلاج بالليزر دكتور جلدية متخصص ف الامراض التناسلية</p>-->
+                            <div class="col-12 text-right">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <br />
+                                <span>التقييم العام من ٥٢٩ زاروا الدكتور</span>
+
+                            </div>
+                            <div class="col-12 text-right">
+                                <p>دكتور جلدية متخصص في جراحة تجميل الوجه <i class='fas fa-stethoscope text-info' style='font-size:15px;text-decoration:underline;text-decoration-color: red'></i></p>
+
+                            </div>
+                            <div class="col-12 text-right">
+                                <p>مدينة نصر : شارع علي امين امتداد مصطفي النحاس <i class='fas fa-map-marker-alt text-info' style='font-size:15px;text-decoration:underline;text-decoration-color: red'></i></p>
+
+                            </div>
+                            <div class="col-12 text-right">
+                                <p>الكشف : ٢٠٠ جنيه <i class='fas fa-money-bill-wave text-info' style='font-size:15px;text-decoration:underline;text-decoration-color: red'></i></p>
+
+                            </div>
+                            <div class="col-12 text-right">
+                                <p>مدة الانتظار : ساعتين و ٨ دقائق <i class='fas fa-clock text-info' style='font-size:15px;text-decoration:underline;text-decoration-color: red'></i></p>
+
+                            </div>
+                            <div class="col-12 text-right">
+                                <p>١٦٦٧٦ - سعر مكالمة عادية <i class='fas fa-phone text-info' style='font-size:15px;text-decoration:underline;text-decoration-color: red'></i></p>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-3 text-center my-auto">
+                            <div class="pt-2">
+                                <img src="images/doc.jpg" alt="Avatar" class="avatar" />
+                            </div>
+                            <button class="btn mt-3" style="border:1px solid orange;border-radius:35%">اعلان</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div><!-- end of left div-->
+
+            <!--right div-->
+            <div class=" d-none d-lg-block col-lg-3 " >
+                <div class="card border-light" style="max-width: 13rem;margin-left: 10%;">
+                    <div class="card-header bg-primary text-right text-white " style="border-radius: 5%;"> حدد بحثك <i class="fa fa-flask" aria-hidden="true"></i></div>
+                    <div class="card-body text-right ">
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            اللقب
+                        </button><i class="fa fa-graduation-cap text-info" style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        استاذ  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        مدرس  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        أستشاري  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 3 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        أخصائي  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 4 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+
+
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            التخصصات الفرعية
+                        </button><i class='fas fa-stethoscope text-info' style='font-size:20px'></i>
+
+                        <div class="collapse " id="collapseExample2">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                  
+                                        الكل  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        تخسيس و تغذية بالغين  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        تخسيس و تغذية اطفال  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 3 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                            النوع
+                        </button><i class='fas fa-transgender text-info' style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample3">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        دكتور  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        دكتورة  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                            المواعيد المتاحة
+                        </button><i class="fa fa-calendar-check-o text-info" style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample4">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        أي يوم  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        اليوم  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        غدا  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 3 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                            أكواد الخصم
+                        </button><i class="fa fa-tags text-info" style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample5">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        يقبل أكواد خصم  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+                            سعر الكشف
+                        </button><i class="fa fa-money text-info" style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample6">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        الكل  <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        اقل من ٥٠  <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        من ٥٠ حتى ١٠٠  <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 3 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        من ١٠٠ حتى ٢٠٠  <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 4 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        من ٢٠٠ حتى ٣٠٠ <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 5 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        أكثر من ٣٠٠  <input style="margin-left: 3px;" type="radio" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 6 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+                        <hr>
+                        <button class="btn btn-plight " type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+                            المنشأة
+                        </button><i class="fa fa-university text-info" style='font-size:20px' aria-hidden="true"></i>
+
+                        <div class="collapse " id="collapseExample7">
+                            <div class="card card-body ">
+
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        مستشفى  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 1 checkbox-->
+                                <div class="form-check text-right">
+                                    <label class="form-check-label" for="check1">
+                                        عيادة  <input style="margin-left: 3px;" type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                    </label>
+                                </div><!--end 2 checkbox-->
+                            </div><!--end of body card-->
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- end of right div-->
+        </div>
+
+        <!--</div>-->
+        <br /><br /><br /><br /><br /><br /><br /><br />
+ 
+        <!-- End of  body -->
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+         <div class="row">
+            <div class="col-12  col-md-2 ">
+               <div class="footer-info">
+          
+               <div class="social-links mt-3 mb-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="col-6  col-md-2  footer-links">
+        <h4>تحتاج للمساعده؟</h4>
+        <ul>
+          <li><a href="ContactUsArb.html">اتصل بنا</a></li>
+          <li><a href="TermsOfUse.html">شروط الاستخدام</a></li>
+          <li><a href="PrivacyPolicy.html">اتفاقية الخصوصية</a></li>
+          <li><a href="DoctorsPrivacyPolicyArb.html">اتفاقية الخصوصية للاطباء</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2  footer-links">
+        <h4>هل انت طبيب ؟</h4>
+        <ul>
+          <li><a href="LoginDoctor.html">انضم الى اطباء فيزيتا</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2  footer-links">
+        <h4>ابحث عن طريق</h4>
+        <ul>
+          <li><a href="specific.html">التخصص</a></li>
+          <li><a href="city2.html">المنطقة</a></li>
+          <li><a href="InsurancePage.html">التأمين</a></li>
+          <li><a href="hospitalPage.html">المستشفى</a></li>
+          <li><a href="centerPage.html">المركز</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4  footer-links">
+        <div class="d-none d-md-block ">
+        <h4><img src="Images/logo.png" alt=""></h4>
+      </div>
+        <ul>
+          <li><a href="WhoRW.html">من نحن</a></li>
+          <li><a href="LifeVezeeta.html">فريق فيزيتا</a></li>
+          <li><a href="https://careers.vezeeta.com/">وظائف</a></li>
+          <li><a href="press.html">الصحافه</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  </div>
+    </div>
+  
+    </footer><!-- End Footer -->
+
+
+    </div>
+    <!-- Main JS File -->
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
